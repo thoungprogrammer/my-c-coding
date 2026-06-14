@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+// PRINT FIRST NAME AND LAST NAME PROGRAM TO THE CONSOLE
+
 int main(void){
     char firstName[] = "Morn";
     char lastName[] = "Chanthoung";

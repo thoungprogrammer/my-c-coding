@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+// PRINT FULL NAME , AGE AND GENDER TO THE CONSOLE 
+
 int main(void){
     int myAge = 21;
     char myFullName[] = "Morn Chanthoung";
