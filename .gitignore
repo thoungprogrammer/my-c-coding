@@ -1,0 +1,35 @@
+# Ignore the test folder
+test/
+
+# Ignore compiled executables in every section
+program/section_6/*.exe
+program/section_7/*.exe
+program/section_8/*.exe
+program/section_9/*.exe
+program/section_10/*.exe
+program/section_11/*.exe
+program/section_12/*.exe
+program/section_13/*.exe
+program/section_14/*.exe
+program/section_15/*.exe
+program/section_16/*.exe
+program/section_17/*.exe
+program/section_18/*.exe
+program/section_19/*.exe
+program/section_20/*.exe
+program/section_21/*.exe
+program/section_22/*.exe
+program/section_23/*.exe
+program/section_24/*.exe
+program/section_25/*.exe
+program/section_26/*.exe
+program/section_27/*.exe
+program/section_28/*.exe
+program/section_29/*.exe
+program/section_30/*.exe
+program/section_31/*.exe
+program/section_32/*.exe
+program/section_33/*.exe
+program/section_34/*.exe
+program/section_35/*.exe
+program/section_36/*.exe
