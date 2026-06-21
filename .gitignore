@@ -33,3 +33,6 @@ program/section_33/*.exe
 program/section_34/*.exe
 program/section_35/*.exe
 program/section_36/*.exe
+
+# Ignore dot file 
+.vscode/
