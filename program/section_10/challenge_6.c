@@ -11,37 +11,38 @@ int main(void){
 	int minutes;
 	int hours;
 	int remainSeconds;
-	printf("==== SECON CONVERT TO TIME FORMAT PROGRAM VERSION 2 ====\n");
+	printf("==== SECOND CONVERT TO TIME FORMAT PROGRAM VERSION 2 ====\n");
 	printf("Enter the second: \n>");
 	scanf("%i", &seconds);
 	hours = seconds / 3600;
-	minutes = ( second % 3600 ) / 60;
+	minutes = ( seconds % 3600 ) / 60;
 	remainSeconds = ((seconds % 3600) % 60);
 
 	printf("The %i minutes is ", seconds);
 	if ( hours < 10 ) {
 	
 		printf("0%i:", hours );
-	
+	}
 	else {
 		printf("%i", hours ) ;
 	}
 
-	if ( minutes< 10 ) {
+	if ( minutes < 10 ) {
 	
 		printf("0%i:", minutes);
 	}
 	else {
-		printf("%i", seconds ) ;
+		printf("%i", minutes ) ;
 	}
 	
-	if ( hours < 10 ) {
+	if ( seconds < 10 ) {
 	
 		printf("0%i:", seconds);
 	}
 	else {
 		printf("%i", seconds ) ;
 	}
+	printf(" in time format\n");
 	return 0;
 
 }
