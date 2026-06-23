@@ -35,12 +35,12 @@ int main(void){
 		printf("%i", minutes ) ;
 	}
 	
-	if ( seconds < 10 ) {
+	if ( remainSeconds < 10 ) {
 	
-		printf("0%i:", seconds);
+		printf("0%i:", remainSeconds);
 	}
 	else {
-		printf("%i", seconds ) ;
+		printf("%i", remainSeconds ) ;
 	}
 	printf(" in time format\n");
 	return 0;
