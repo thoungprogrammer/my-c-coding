@@ -16,11 +16,6 @@ int main(void){
     hours = seconds / 3600;
     minutes = ( seconds % 3600 ) / 60; 
     remainSeconds = ((seconds % 3600) % 60);
-
-    if (hours <= 9 ){
-        hours = '0' + hours;
-    };
-    printf("%d", hours);
-    printf("The %i minutes is %i:%i:%i in time format",seconds,hours,minutes,remainSeconds);
+    printf("The %i minutes is %02i:%02i:%02i in time format",seconds,hours,minutes,remainSeconds);
     return 0;
 }
