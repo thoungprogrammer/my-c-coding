@@ -36,3 +36,6 @@ program/section_36/*.exe
 
 # Ignore dot file 
 .vscode/
+
+# Ignore exe after compile 
+*.exe
