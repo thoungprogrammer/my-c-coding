@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 #include<string.h>
-#include<string.h>
+#include<stdlib.h>
 
 // PROGRAM THAT CHECKS IF A GIVEN YEAR IS A LEAP YEAR OR NOT 
 
